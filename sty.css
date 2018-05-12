@@ -1,0 +1,97 @@
+ /* Style the nav */
+.nav{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the nav content */
+.nav button {
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 55px;
+    transition: 0.3s;
+	color:black;
+	
+}
+
+/* Change background color of buttons on hover */
+.nav button:hover {
+    background-color: white;
+	color:#F26969;
+}
+
+/* Create an active/current navlink class */
+.nav button.active {
+    background-color: #F26969;
+	color: white;
+}
+
+/* Style the nav content */
+.nav content {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+} 
+header {
+	margin-top: 50px;
+	margin-left:170px;
+	margin-bottom: 0px;
+	background-color: white;
+color: 	#C0C0C0;}
+footer{
+    background-color: #F26969;
+	margin-bottom: 0px;
+	margin-top: 180px;
+	color: 	#7f7f7f;}
+	
+.nav { background-color: white;
+color: black;
+margin-top : 90px;
+border: 0;
+}
+
+
+.jumbotron {  background-color: #F26969;
+color: white;
+margin-bottom: 5px;
+ height: 100vh;
+ text-align: justified;
+ font-family:'Adobe Myungjo Std M';
+ 
+
+}
+ /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+	margin-top : 290px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: #F26969;
+}
+
+/* Twitter */
+.fa-twitter {
+    background:white;
+    color: #F26969;
+} 
+
